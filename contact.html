@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dugsiga Wanaagsan</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f2f2;
+    }
+
+    header {
+      background: linear-gradient(to right, #0077ff, #00c6ff);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: yellow;
+    }
+
+    section {
+      padding: 40px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 800px;
+      border-radius: 15px;
+      background: white;
+      box-shadow: 0 0 20px rgba(0, 123, 255, 0.2);
+    }
+
+    #about {
+      background: linear-gradient(to left, #e0f7ff, #ffffff);
+    }
+
+    #about h2 {
+      color: #0077cc;
+    }
+
+    #contact {
+      background: linear-gradient(to right, #fff5f5, #f5f9ff);
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: border-color 0.3s ease;
+    }
+
+    form input:focus, form textarea:focus {
+      border-color: #0077ff;
+      outline: none;
+    }
+
+    form button {
+      background: #0077ff;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    form button:hover {
+      background: #005ecc;
+    }
+
+    footer {
+      background: #222;
+      color: #ddd;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Dugsiga Wanaagsan</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Bogga Hore</a></li>
+        <li><a href="#about">Kusoo Dhawaaw</a></li>
+        <li><a href="#contact">La xiriir</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>Kusoo Dhawaaw</h2>
+    <p>Ku soo dhawoow Dugsiga Wanaagsan — halka aqoonta iyo anshaxa la isku darsado! Waxaan bixinaa waxbarasho tayo sare leh, fursado kobcin ah, iyo jawi nabdoon oo ardaygu ku korayo.</p>
+    <p>Dugsigeenu wuxuu leeyahay macallimiin khibrad sare leh, fasallo casri ah, iyo barnaamijyo dhaqan iyo saynis isugu jira.</p>
+  </section>
+
+  <section id="contact">
+    <h2>La xiriir</h2>
+    <form>
+      <label>Magacaaga:</label>
+      <input type="text" placeholder="Geli magacaaga" required>
+
+      <label>Email:</label>
+      <input type="email" placeholder="Geli email-kaaga" required>
+
+      <label>Fariintaada:</label>
+      <textarea rows="5" placeholder="Qor fariintaada" required></textarea>
+
+      <button type="submit">Dir Fariinta</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dugsiga Wanaagsan - Xuquuqda way dhamaan</p>
+  </footer>
+
+</body>
+</html>
